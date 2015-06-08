@@ -23,7 +23,7 @@ class MyClass(object):
                 old = os.path.join(dirr, filename)
                 # "#14 blahBlah.txt" 
                 new = os.path.join(dirr, re.sub(r'(.*?)' + numberRegex + '(.*?)', r'\2 \1\3', filename))
-                print "Zamieniam " + old + " ====> " + new
+                print "Changing " + old + " ====> " + new
                 os.rename(old, new)
 
 obj = MyClass()

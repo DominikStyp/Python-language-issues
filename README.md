@@ -18,16 +18,18 @@ This repo contains **Python practical examples** of certain topics like:
         x.append(1)
         print x
 ```
-- <a href="./consoleUsing">Console usage examples</a>
+- <a href="./consoleUsing/consoleIssues.py">Console usage examples</a>
 
 - <a href="./dataTypes">Using of different data types</a>:
-  - Descriptors
-  - Dictionaries
-  - Generators
-  - Lists
-  - Strings
-  - Sets
-  - Tuples
+  - <a href="./dataTypes/DescriptorsExample.py">Descriptors example1</a>, 
+  - <a href="./dataTypes/DescriptorsExample2.py">Descriptors example2</a>
+  - <a href="./dataTypes/Dictionaries.py">Dictionaries</a>
+  - <a href="./dataTypes/Generators.py">Generators</a>
+  - <a href="./dataTypes/Lists.py">Lists</a>
+  - <a href="./dataTypes/Strings.py">Strings</a>
+  - <a href="./dataTypes/Sets.py">Sets</a>
+  - <a href="./dataTypes/Tuples.py">Tuples</a>
+  - <a href="./dataTypes/EnforceMethodParamType.py">Enforcing method parameter type</a>
   
 - <a href="./dateAndTimeOperations/formattingDate.py">Formatting date</a>:
 ```python
@@ -47,8 +49,8 @@ This repo contains **Python practical examples** of certain topics like:
 - <a href="./debugging/specialVariables.py">Debugging using special variables</a> **__builtin__**, **sys**, **inspect**
 - <a href="./exceptions/">Handling and throwing exceptions</a>:
   - using **raise**
-  - using **try-except** construct
-  - creating user-defined exceptions
+  - <a href="./exceptions/ExampleHandlers.py">using **try-except** construct</a>
+  - <a href="./exceptions/UserDefinedExceptions.py">creating user-defined exceptions</a>
   
 - <a href="./fileOperations/">File operations</a>
   - examples of common file operations: **read, write, delete, close**
@@ -65,7 +67,7 @@ This repo contains **Python practical examples** of certain topics like:
   - using of **timeit** module to determine execution time of different variants of 
   - using of **unittest** 
 
-- <a href="./regularExpressions">Regular Expressions</a>
+- <a href="./regularExpressions/SimpleExamples.py">Regular Expressions</a>
   - matching the pattern using **re.match**
   - finding all occurences of the pattern with **re.findall**
   - iterate over matched results using **re.finditer**
@@ -74,12 +76,12 @@ This repo contains **Python practical examples** of certain topics like:
   - display matched results using **match.group** and **match.groups**
 
 - <a href="./specialPythonFeatures">Special Python features</a>
-  - Overriding operators using: **__lt__, __le__, __eq__, __ne__, __gt__, __ge__**
-  - Using function **decorators** (and simple explanation how this works)
-  - Defining **descriptor classes** (If class defines methods __get__, __set__, __delete__ it's called descriptor)
-  - different using of **import** statement (wildcards, relative imports)
-  - overriding **built-in functions**: example of **how override print function**
-  - example of how to override **mathematical operators** behavior in classes
+  - <a href="./specialPythonFeatures/ComparableObjects.py">Overriding operators</a> using: **__lt__, __le__, __eq__, __ne__, __gt__, __ge__**
+  - <a href="./specialPythonFeatures/Decorators.py">Using function **decorators**</a> (and simple explanation how this works)
+  - <a href="./specialPythonFeatures/DescriptorDefinition.py">Defining **descriptor classes**</a> (If class defines methods __get__, __set__, __delete__ it's called descriptor)
+  - <a href="./specialPythonFeatures/ImportIssues.py">different using of **import** statement</a> (wildcards, relative imports)
+  - <a href="./specialPythonFeatures/OverrideBuiltInFunctions.py">overriding **built-in functions**</a>: example of **how override print function**
+  - <a href="./specialPythonFeatures/Point.py">example of how to override **mathematical operators**</a> behavior in classes
 
 - <a href="./specialPythonFeatures/PythonTricks.py">Python tricks</a>
   - in-place values swapping
@@ -89,4 +91,4 @@ This repo contains **Python practical examples** of certain topics like:
   
 - <a href="./specialPythonFeatures/SpecialMethods.py">Special class methods</a> examples: **__init__,__new__,__del__,__repr__,__str__,__getattr__,__cal__**
 
-- <a href="./Urllib">**Urllib** example usage</a> in **GET and POST** requests (how to easy make get/post requests)
+- <a href="./Urllib/GetAndPostQueries.py">**Urllib** example usage in **GET and POST** requests</a> (how to easy make get/post requests)

@@ -45,7 +45,7 @@ This repo contains **Python practical examples** of certain topics like:
 ```
 
 - <a href="./debugging/specialVariables.py">Debugging using special variables</a> **__builtin__**, **sys**, **inspect**
-- <a href="./exceptions/">Handling and throwing exceptions:
+- <a href="./exceptions/">Handling and throwing exceptions</a>:
   - using **raise**
   - using **try-except** construct
   - creating user-defined exceptions
